@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.715572">
+<testcase classname="NewTours Demoaut Login" name="NewTours Demoaut Login Test" time="35.715572">
+<failure message="org.junit.ComparisonFailure: expected:&lt;...ight: Mercury Tours:[ Failed TestCase]&gt; but was:&lt;...ight: Mercury Tours:[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinition.LoginStepDefinition.user_is_on_home_page(LoginStepDefinition.java:44)&#13;&#10;&#9;at ✽.Then user is on home page(login.feature:10)&#13;&#10;"><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is NewTours Demoaut................................passed
+Then user enters username and password......................................passed
+Then user clicks on signin button...........................................passed
+Then user is on home page...................................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<...ight: Mercury Tours:[ Failed TestCase]> but was:<...ight: Mercury Tours:[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinition.LoginStepDefinition.user_is_on_home_page(LoginStepDefinition.java:44)
+	at ✽.Then user is on home page(login.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
